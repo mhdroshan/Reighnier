@@ -87,23 +87,33 @@ h1,
   font-weight: 500;
   line-height: 1.2;
 }
-/*  
+.serv-card{
+  margin: 30px auto;
+  border: 3px solid transparent;
+  transition: .3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: -3px 7px 10px 0 #00000045;
+  height: 300px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
+}
+.serv-card:hover{
+  border: 3px solid #c81315;
+}
+.serv-card .ser-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 83%;
+}
+.serv-card p {
+  margin: 5px auto;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
 /* custom css */
 .icon-service {
   width: 150px;
@@ -123,7 +133,7 @@ h1,
   font-size: 20px;
 }
 .content-box .sub-title {
-  text-transform: none !important;
+  text-transform: capitalize !important;
 }
 
 /*  */
@@ -3313,13 +3323,13 @@ fieldset:disabled .btn {
   background-color: #ffffff;
   border-color: #c81315;
 }
-.btn-check:focus + .btn-primary,
+/* .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #fff;
   background-color: #0b5ed7;
   border-color: #0a58ca;
   box-shadow: 0 0 0 4px rgba(9, 16, 27, 0.5);
-}
+} */
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary,
 .btn-check.nice-select.open + .btn-primary,
@@ -15778,7 +15788,7 @@ textarea {
   margin-left: 30px;
   text-align: left;
 }
-
+.service-content-wrapper .content p{ font-size: 18px;}
 .social-link {
   display: flex;
   flex-wrap: wrap;
@@ -15786,6 +15796,7 @@ textarea {
 .social-link li {
   margin-right: 15px;
   display: inline-block;
+  text-align: center;
 }
 .social-link li:last-child {
   margin-right: 0;
