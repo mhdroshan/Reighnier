@@ -9,7 +9,7 @@
     <!-- ::::::::::::::Favicon icon::::::::::::::-->
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.ico"
+     href="assets/images/favicon.png"
       type="image/png"
     />
 
@@ -31,6 +31,11 @@
     <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css"> -->
+        <!-- font-awsome -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
   </head>
 
   <body>
@@ -72,7 +77,7 @@
               <div class="col-auto">
                 <!-- Start Header Logo -->
                 <div class="logo">
-                  <a href="#"
+                  <a href="index.html"
                     ><img src="assets/images/logo/logo.png" alt=""
                   /></a>
                 </div>
@@ -84,12 +89,8 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About us</a></li>
                   <li><a href="#">Services</a></li>
-                  <li>
-                    <a href="project-list.html">Project</a>
-                  </li>
-                  <li>
-                    <a href="blog-list.html">Blog</a>
-                  </li>
+                 
+                  
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <!-- End Header Logo -->
@@ -152,71 +153,66 @@
 
       <!--  Start Offcanvas Mobile Menu Section -->
       <div
-      id="mobile-menu-offcanvas"
-      class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section"
-    >
-      <!-- Start Offcanvas Header -->
-      <div class="offcanvas-header text-right">
-        <button class="offcanvas-close">
-          <i class="icofont-close-line"></i>
-        </button>
-      </div>
-      <!-- End Offcanvas Header -->
-      <!-- Start Offcanvas Mobile Menu Wrapper -->
-      <div class="offcanvas-mobile-menu-wrapper">
-        <!-- Start Mobile Menu  -->
-        <div class="mobile-menu-bottom">
-          <!-- Start Mobile Menu Nav -->
-          <div class="offcanvas-menu">
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li>
-                  <a href="project-list.html">Project</a>
-                </li>
-           
+        id="mobile-menu-offcanvas"
+        class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section"
+      >
+        <!-- Start Offcanvas Header -->
+        <div class="offcanvas-header text-right">
+          <button class="offcanvas-close">
+            <i class="icofont-close-line"></i>
+          </button>
+        </div>
+        <!-- End Offcanvas Header -->
+        <!-- Start Offcanvas Mobile Menu Wrapper -->
+        <div class="offcanvas-mobile-menu-wrapper">
+          <!-- Start Mobile Menu  -->
+          <div class="mobile-menu-bottom">
+            <!-- Start Mobile Menu Nav -->
+            <div class="offcanvas-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  
              
-              <li>
-                <a href="blog-list.html"><span>Blog</span></a>
+               
+                
+                <li>
+                  <a href="contact.html"><span>Contact</span></a>
                 </li>
-              
+              </ul>
+            </div>
+            <!-- End Mobile Menu Nav -->
+          </div>
+          <!-- End Mobile Menu -->
+
+          <!-- Start Mobile contact Info -->
+          <div class="mobile-contact-info text-center">
+            <ul class="social-link social-link-white">
               <li>
-                <a href="contact.html"><span>Contact</span></a>
+                <a target="_blank" href="https://example.com"
+                  ><i class="icofont-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://wa.me/+919995070083"
+                  ><i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+                <span
+                  style="
+                    font-size: 10px;
+                    color: white;
+                    vertical-align: super;
+                  "
+                  >contact</span
+                >
               </li>
             </ul>
           </div>
-          <!-- End Mobile Menu Nav -->
+          <!-- End Mobile contact Info -->
         </div>
-        <!-- End Mobile Menu -->
-
-        <!-- Start Mobile contact Info -->
-        <div class="mobile-contact-info text-center">
-          <ul class="social-link social-link-white">
-            <li>
-              <a target="_blank" href="https://example.com"
-                ><i class="icofont-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a target="_blank" href="https://wa.me/+919995070083"
-                ><i class="fa fa-whatsapp" aria-hidden="true"></i>
-              </a>
-              <span
-                style="
-                  font-size: 10px;
-                  color: white;
-                  vertical-align: super;
-                "
-                >contact</span
-              >
-            </li>
-          </ul>
-        </div>
-        <!-- End Mobile contact Info -->
+        <!-- End Offcanvas Mobile Menu Wrapper -->
       </div>
-      <!-- End Offcanvas Mobile Menu Wrapper -->
-    </div>
       <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
 
       <!-- Offcanvas Overlay -->
@@ -234,7 +230,7 @@
                 <div class="content">
                   <h2 class="title">Our Services</h2>
                   <ol class="breadcrumb-link">
-                    <li><a href="service-list.html">Service</a></li>
+                    <li><a href="#">Service</a></li>
                     <li class="active" aria-current="page">Services List</li>
                   </ol>
                 </div>
@@ -272,6 +268,94 @@
           <div class="service-display-wrapper">
             <div class="row">
               <div class="col-12">
+                <div class="service-single-item">
+                  <div
+                    class="icon-service"
+                    style="
+                      background-image: url(./assets/images/icons/Analysis.png);
+                    "
+                  ></div>
+                  <div class="content">
+                    <h4 class="title">
+                      Third party inspection & certification
+                    </h4>
+                    <a
+                      href="service-details.html"
+                      class="btn btn-sm btn-outline-primary text-uppercase"
+                    >
+                      <span
+                        >details
+                        <i class="icofont-double-right icon-space-left"></i
+                      ></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Service Single Item -->
+                <!-- Start Service Single Item -->
+                <div class="service-single-item">
+                  <div
+                    class="icon-service"
+                    style="
+                      background-image: url(./assets/images/icons/Research.png);
+                    "
+                  ></div>
+                  <div class="content">
+                    <h4 class="title">NDT Inspection</h4>
+                    <a
+                      href="service-details.html"
+                      class="btn btn-sm btn-outline-primary text-uppercase"
+                    >
+                      <span
+                        >details
+                        <i class="icofont-double-right icon-space-left"></i
+                      ></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Service Single Item -->
+                <!-- Start Service Single Item -->
+                <div class="service-single-item">
+                  <div
+                    class="icon-service"
+                    style="
+                      background-image: url(./assets/images/icons/certificate.png);
+                    "
+                  ></div>
+                  <div class="content">
+                    <h4 class="title">Training & Certifications</h4>
+                    <a
+                      href="service-details.html"
+                      class="btn btn-sm btn-outline-primary text-uppercase"
+                    >
+                      <span
+                        >details
+                        <i class="icofont-double-right icon-space-left"></i
+                      ></span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Service Single Item -->
+                <!-- Start Service Single Item -->
+                <div class="service-single-item">
+                  <div
+                    class="icon-service icon"
+                    style="
+                      background-image: url(./assets/images/icons/eng-design.png);
+                    "
+                  ></div>
+                  <div class="content">
+                    <h4 class="title">Engineering design & solution</h4>
+                    <a
+                      href="service-details.html"
+                      class="btn btn-sm btn-outline-primary text-uppercase"
+                    >
+                      <span
+                        >details
+                        <i class="icofont-double-right icon-space-left"></i
+                      ></span>
+                    </a>
+                  </div>
+                </div>
                 <!-- Start Service Single Item -->
                 <div class="service-single-item">
                   <div
@@ -494,6 +578,7 @@
       <footer class="footer-section footer-bg">
         <!-- Start Footer Top -->
         <div class="footer-top">
+        
           <div class="bg-color-bold-red"></div>
         </div>
         <!-- Start Footer Top -->
@@ -509,9 +594,7 @@
                   <ul class="footer-about">
                     <li>
                       <div class="text">
-                        <span class="text-marker">Location:</span>Office no: 312
-                        <br />
-                        fourth floor DD vyapar bhavan<br />
+                        <span class="text-marker">Location:</span>Office no: 312 <br> fourth floor DD vyapar bhavan<br>
                         Kadavathra kochi -682020
                       </div>
                     </li>
@@ -527,56 +610,17 @@
                         ><a href="tel:+919961653694">9961653694</a>
                       </div>
                     </li>
-
+                   
                     <li>
                       <div class="text">
                         <span class="text-marker">Email:</span>
-                        <a href="mailto:reighnierengineering@gmail.com"
-                          >reighnierengineering@gmail.com</a
-                        >
+                        <a href="mailto:reighnierengineering@gmail.com">reighnierengineering@gmail.com</a>
                       </div>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-xl-auto col-md-6 col-12">
-                <div class="footer-widget-single-item">
-                  <h3 class="title">RECENT NEWS</h3>
-
-                  <ul class="footer-blog">
-                    <li>
-                      <a href="blog-details.html" class="image">
-                        <img
-                          src="assets/images/blog/blog-list-img-1.png"
-                          alt=""
-                        />
-                      </a>
-                      <div class="content">
-                        <a class="title" href="blog-details.html"
-                          >Lorem Ipsum simply dumme printing and type
-                          industry.</a
-                        >
-                        <span class="date">03 February, 2021</span>
-                      </div>
-                    </li>
-                    <li>
-                      <a href="blog-details.html" class="image">
-                        <img
-                          src="assets/images/blog/blog-list-img-1.png"
-                          alt=""
-                        />
-                      </a>
-                      <div class="content">
-                        <a class="title" href="blog-details.html"
-                          >Lorem Ipsum simply dumme printing and type
-                          industry.</a
-                        >
-                        <span class="date">03 February, 2021</span>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              
               <div class="col-xl-auto col-md-6 col-12">
                 <div class="footer-widget-single-item">
                   <h3 class="title">OUR SERVICES</h3>
@@ -589,7 +633,7 @@
                     <li><a href="#">Engineering design and solution</a></li>
                     <li><a href="#">Construction</a></li>
                     <li><a href="#">NDT Level III & Welding consultancy</a></li>
-                    <li><a href="./service-list.html">All services</a></li>
+                    <li><a href="./#">All services</a></li>
                   </ul>
                 </div>
               </div>
@@ -598,10 +642,11 @@
                   <h3 class="title">QUICK LINKS</h3>
                   <ul class="footer-nav">
                     <li><a href="about.html">About us</a></li>
-                    <li><a href="service-list.html">Our Services</a></li>
-                    <li><a href="project-list.html">Projects</a></li>
-                    <li><a href="blog-list.html">Blog</a></li>
+                    <li><a href="#">Our Services</a></li>
+                   
+                   
                     <li><a href="contact.html">Contact Us</a></li>
+                   
                   </ul>
                 </div>
               </div>

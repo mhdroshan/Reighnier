@@ -16064,7 +16064,7 @@ textarea {
 .hero-slider-single-item .content-box {
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   color: #fff;
@@ -18328,10 +18328,10 @@ Components - Sidebar Widget
 
 .contact-box-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+
   grid-gap: 30px;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .contact-box-info {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -18340,7 +18340,7 @@ Components - Sidebar Widget
   .contact-box-info {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
 .contact-box-info {
   margin-right: 0px;

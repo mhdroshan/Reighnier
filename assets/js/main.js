@@ -94,7 +94,7 @@
         watchSlidesProgress: true,
         loop: true,
         autoplay:true,
-        // autoplay: true,
+        
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
