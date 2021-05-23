@@ -18354,7 +18354,8 @@ Components - Sidebar Widget
 .contact-info-single-item {
   background: #f8f5f3;
   border-radius: 15px;
-  padding: 32.5px 40px;
+  padding: 32.5px 30px;
+  /* padding: 32.5px 40px; */
   z-index: 1;
   position: relative;
 }
@@ -18469,6 +18470,7 @@ Components - Sidebar Widget
   .about-wrapper .content .title {
     font-size: 50px;
   }
+
 }
 @media (min-width: 1200px) {
   .about-wrapper .content .title {
@@ -18579,9 +18581,12 @@ Components - Sidebar Widget
 .about-wrap-section.m-t-70 {
   margin-top: 0;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .about-wrap-section.m-t-70 {
     margin-top: 60px;
+  }
+  .contact-info-single-item .content .info-text{
+    font-size: 25px !important;
   }
 }
 @media (min-width: 576px) {
