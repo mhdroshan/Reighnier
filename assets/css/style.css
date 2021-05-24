@@ -5356,6 +5356,7 @@ fieldset:disabled .btn {
   display: flex;
   flex-direction: column;
   padding-left: 0;
+  width: fit-content;
   margin-bottom: 0;
   border-radius: 4px;
 }
@@ -5377,11 +5378,20 @@ fieldset:disabled .btn {
   color: #757575;
   background-color: #e9ecef;
 }
-
+.list-group-item i{
+  font-size: 20px;
+  margin: auto 10px auto 3px;
+  color: #c81315;
+  transition: .2s ease-in;
+}
+.list-group-item:hover i{
+  padding-left: 8px;
+  margin-right: 2px;
+}
 .list-group-item {
   position: relative;
   display: block;
-  padding: 5px 10px;
+  padding: 8px 12px;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
