@@ -294,7 +294,6 @@
                         <h4 class="sup-title">We Provide</h4>
                         <h2 class="title">Extensive engineering services</h2>
                         <h3 class="sub-title">On Your requirements</h3>
-
                         <a
                           href="service-list.html"
                           class="btn btn-lg btn-primary"
@@ -569,7 +568,7 @@
             <div class="col-xl-5">
               <!-- Start Section Content -->
               <div class="section-content section-content-space">
-                <h4 class="title-tag text-gradient">CONTATCT US</h4>
+                <h4 class="title-tag text-gradient">CONTACT US</h4>
                 <h2 class="title">KNOW ABOUT OUR SERVICES</h2>
                 <p>
                   Contact us now and get to know about out services.
@@ -578,15 +577,16 @@
             </div>
             <div class="col-xl-6 offset-xl-1">
               <div class="default-inner-form-wrapper">
-                <form class="form-group" action="#" method="post">
+               
                   <div class="row mb-n6">
                     <div class="col-md-6 col-12 mb-6">
                       <!-- Start Form Group Single Item -->
                       <div class="form-group-single-item">
                         <input
                           type="text"
+                          required
                           placeholder="Name *"
-                          required="required"
+                          
                         />
                       </div>
                       <!-- End Form Group Single Item -->
@@ -595,56 +595,47 @@
                       <!-- Start Form Group Single Item -->
                       <div class="form-group-single-item">
                         <input
+
                           type="email"
                           placeholder="Email *"
-                          required="required"
+                          
                         />
                       </div>
                       <!-- End Form Group Single Item -->
                     </div>
-                    <div class="col-md-6 col-12 mb-6">
+                    <div class="col-md-12 col-12 mb-6">
                       <!-- Start Form Group Single Item -->
                       <div class="form-group-single-item">
-                        <input
-                          type="tel"
-                          placeholder="Phone *"
-                          required="required"
-                        />
-                      </div>
-                      <!-- End Form Group Single Item -->
-                    </div>
-                    <div class="col-md-6 col-12 mb-6">
-                      <!-- Start Form Group Single Item -->
-                      <div class="form-group-single-item">
-                        <input
-                          type="text"
-                          placeholder="Location *"
-                          required="required"
-                        />
-                      </div>
-                      <!-- End Form Group Single Item -->
-                    </div>
-                    <div class="col-12 mb-6">
-                      <!-- Start Form Group Single Item -->
-                      <div class="form-group-single-item">
-                        <select>
-                          <option value="">Services</option>
-                          <option value="">Solutions</option>
-                          <option value="">Our operations</option>
+                        <select name="" id="subject">
+                          <option value="">Select a subject</option>
+                          <option value="Enquiry">Enquiry</option>
+                          <option value="Construction">Construction</option>
+                          <option value="NDT">NDT</option>
                         </select>
                       </div>
                       <!-- End Form Group Single Item -->
                     </div>
+                    <div class="col-md-12 col-12 mb-6">
+                      <!-- Start Form Group Single Item -->
+                      <div class="form-group-single-item">
+                         
+                        <textarea  id="message" required placeholder="Message *" ></textarea>
+                      </div>
+                      <!-- End Form Group Single Item -->
+                    </div>
+                    
                     <div class="col-12 mb-6 text-center">
-                      <button
-                        type="submit"
+                      
+                      <button id="sender"
+                        
                         class="btn btn-lg btn-primary icon-space-right"
                       >
                       <i class="icofont-email"></i> Contact
                       </button>
                     </div>
+                   </a>
                   </div>
-                </form>
+              
               </div>
             </div>
           </div>

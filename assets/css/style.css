@@ -17426,7 +17426,8 @@ textarea {
   padding-left: 5px;
 }
 .form-group-single-item-inner-bg input,
-.form-group-single-item-inner-bg textarea {
+.form-group-single-item-inner-bg textarea,
+.form-group-single-item-inner-bg select {
   background: #f8f5f3;
 }
 
