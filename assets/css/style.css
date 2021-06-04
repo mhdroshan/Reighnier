@@ -18631,7 +18631,7 @@ Components - Sidebar Widget
 
 /*Header Top*/
 .header-top {
-  background: #434547;
+  background: #960d0f;
   color: #fffefe;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -18661,7 +18661,7 @@ Components - Sidebar Widget
 /*Header Bottom*/
 .header-bottom {
   background: rgba(48, 21, 20, 0.05);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px) brightness(0.5);
   /*Header Logo*/
   /*Header Menu*/
   /*Header Social Link*/
