@@ -1,7 +1,7 @@
 document.getElementById('sender').addEventListener("click", sendEmail);
 
     function sendEmail() {
-    var email = 'reighnierengineering@gmail.com';
+    var email = 'admin@reighneir.com';
     var message = document.getElementById('message').value;
     var subject = document.getElementById('subject').value;
     var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + message;

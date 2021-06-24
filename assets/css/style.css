@@ -16337,10 +16337,10 @@ textarea {
   content: "";
   width: 100%;
   height: 100%;
-  background: #434547;
+  background: #434547e3;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .about-display-wrapper .content {
   position: absolute;
@@ -19149,7 +19149,7 @@ Components - Sidebar Widget
   transition: all 0.5s ease;
   transform: translateX(100%);
   box-shadow: none;
-  background: #434547;
+  background: #1E1E1E;
   width: 300px;
   overflow-x: hidden;
 }
