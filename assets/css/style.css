@@ -18660,8 +18660,8 @@ Components - Sidebar Widget
 
 /*Header Bottom*/
 .header-bottom {
-  background: rgba(48, 21, 20, 0.05);
-  backdrop-filter: blur(2px) brightness(0.5);
+  /* background: rgba(48, 21, 20, 0.05);
+  backdrop-filter: blur(2px) brightness(0.5); */
   /*Header Logo*/
   /*Header Menu*/
   /*Header Social Link*/
